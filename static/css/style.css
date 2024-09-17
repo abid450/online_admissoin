@@ -1,0 +1,21 @@
+label{
+    padding: 8px;
+}
+body{
+   background-color: black;
+
+}
+       
+.copyright {
+    background-color: #0e0e0e !important;
+    color: #e8e8e8;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  footer .section {
+    padding: 45px 0;
+  }
+  
+  

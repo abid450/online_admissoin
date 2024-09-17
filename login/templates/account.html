@@ -1,0 +1,8 @@
+
+
+{% autoescape off %}
+Hi {{ user.username }},
+You have Succesfully Created an Account on :
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+If you think, it's not you, Then just ignore this email.
+{% endautoescape %}
